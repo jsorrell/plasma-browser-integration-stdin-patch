@@ -1,4 +1,4 @@
-# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Maintainer: Jack Sorrell <jack@jacksorrell.com>
 
 pkgname=plasma-browser-integration-stdin-patch
 pkgver=5.14.2
@@ -12,8 +12,6 @@ conflicts=('plasma-browser-integration')
 depends=(krunner)
 makedepends=(extra-cmake-modules)
 groups=(plasma)
-provides=('plasma-browser-integration')
-conflicts=('plasma-browser-integration')
 source=("https://download.kde.org/stable/plasma/${pkgver}/plasma-browser-integration-${pkgver}.tar.xz"{,.sig}
     'connection-noqt.cpp'
     'connection-noqt.h')
